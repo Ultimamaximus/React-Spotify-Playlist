@@ -23,8 +23,8 @@ const TrackList = ({ tracks, onAdd, onRemove, isRemoval }) => {
 // Prop type validation
 TrackList.propTypes = {
   tracks: PropTypes.arrayOf(PropTypes.object).isRequired,
-  onAdd: PropTypes.func.isRequired,
-  onRemove: PropTypes.func.isRequired,
+  onAdd: PropTypes.func,
+  onRemove: PropTypes.func,
   isRemoval: PropTypes.bool.isRequired,
 };
 

@@ -43,8 +43,8 @@ const Track = ({ track, isRemoval, onAdd, onRemove }) => {
 Track.propTypes = {
   track: PropTypes.object.isRequired,
   isRemoval: PropTypes.bool.isRequired,
-  onAdd: PropTypes.func.isRequired,
-  onRemove: PropTypes.func.isRequired,
+  onAdd: PropTypes.func,
+  onRemove: PropTypes.func,
 };
 
 export default Track;
